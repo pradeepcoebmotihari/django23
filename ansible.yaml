@@ -1,0 +1,12 @@
+---
+- hosts: server
+  user: ranjan
+  become: yes
+  connection: ssh
+  tasks:
+    - name: copy
+      copy:
+        src: *
+        dest: /var/www/html/django/project
+        mode: 0644
+        
