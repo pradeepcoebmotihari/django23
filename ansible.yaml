@@ -12,6 +12,6 @@
         backup: yes
     - name: restart the apaceh
       shell:
-        "/usr/local/apache/bin/apachectl restart"
+        "sudo /usr/local/apache/bin/apachectl restart"
 
         
