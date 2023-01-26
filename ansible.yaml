@@ -9,4 +9,5 @@
         src: project_rajesh/
         dest: /var/www/html/django/project
         mode: 0644
+        backup: true
         
