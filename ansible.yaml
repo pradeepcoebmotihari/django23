@@ -8,6 +8,7 @@
       copy:
         src: project_rajesh/
         dest: /var/www/html/django/project
+    - name: copy python   
         src: requirements.txt
         dest: /var/www/html/django
         mode: 0644
