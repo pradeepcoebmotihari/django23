@@ -4,6 +4,10 @@
   become: yes
   connection: ssh
   tasks:
+    - name: Install specified python requirements in indicated (virtualenv)
+      pip:
+        requirements: requirements.txt
+        virtualenv: /var/www/html/django/.py3env 
     - name: copy
       copy:
         src: project_rajesh/
