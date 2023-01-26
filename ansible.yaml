@@ -10,5 +10,8 @@
         dest: /var/www/html/django/project
         mode: 0644
         backup: yes
+    - name: restart the apaceh
+      shell:
+        "/usr/local/apache/bin/apachectl restart"
 
         
