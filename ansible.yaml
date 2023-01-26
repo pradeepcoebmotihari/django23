@@ -6,7 +6,7 @@
   tasks:
     - name: copy
       copy:
-        src: *
+        src: project_rajesh/
         dest: /var/www/html/django/project
         mode: 0644
         
