@@ -6,7 +6,7 @@
   tasks:
     - name: Install specified python requirements in indicated (virtualenv)
       pip:
-        requirements: requirements.txt
+        requirements: /var/lib/jenkins/workspace/jan23django/requirements.txt
         virtualenv: /var/www/html/django/.py3env 
     - name: copy
       copy:
